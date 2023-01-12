@@ -1,0 +1,8 @@
+#include <stdio.h>
+int main(void) { int n, digit, count[10] = {O}; printf("Enter a number: ");
+ 
+while (n > O) { digit = n % 10; count[digit]++; n 10;
+ 
+for (int i = O; i < 10; i++) { printf("%d\t", i);
+printf("\nFrequency:\t"); for (int i = O; i < 10; i++) { printf("%d\t", count[i]);
+return O;
